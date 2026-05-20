@@ -1,0 +1,703 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"He",
+				"Helpers"
+			],
+			[
+				"Get",
+				"GetUuid(entity)"
+			],
+			[
+				"an",
+				"animationName"
+			],
+			[
+				"En",
+				"EntityUuid"
+			],
+			[
+				"selec",
+				"selectedCharacter"
+			],
+			[
+				"Com",
+				"AnimCombos"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"AddSe",
+				"AddSeparatorText"
+			],
+			[
+				"AddSep",
+				"AddSeparatorText"
+			],
+			[
+				"Ca",
+				"Camera"
+			],
+			[
+				"Re",
+				"RegisterConsoleCommand(cmd, handler)"
+			],
+			[
+				"Read",
+				"ReadOnly"
+			],
+			[
+				"Help",
+				"Helpers"
+			],
+			[
+				"Op",
+				"Options"
+			],
+			[
+				"anm",
+				"animation"
+			],
+			[
+				"On",
+				"OnClick"
+			],
+			[
+				"Ci",
+				"Config(element, config)"
+			],
+			[
+				"Co",
+				"Config(element, config)"
+			],
+			[
+				"Sta",
+				"State"
+			],
+			[
+				"Dummy",
+				"DummyAnimationState"
+			],
+			[
+				"sele",
+				"selectedDummy"
+			],
+			[
+				"Dumm",
+				"Dummy"
+			],
+			[
+				"g",
+				"gsub(s, pattern, repl, n)"
+			],
+			[
+				"Du",
+				"Dummy"
+			],
+			[
+				"Ct",
+				"CreateChannels(Channels)"
+			],
+			[
+				"Has",
+				"HasDummy"
+			],
+			[
+				"du",
+				"dummy"
+			],
+			[
+				"dd",
+				"DDump(...)"
+			],
+			[
+				"Cl",
+				"'ClientControl'"
+			],
+			[
+				"en",
+				"entity"
+			],
+			[
+				"o",
+				"origin"
+			],
+			[
+				"Clien",
+				"ClientControl"
+			],
+			[
+				"G",
+				"GetOrigins()"
+			],
+			[
+				"selected",
+				"selectedDummy"
+			],
+			[
+				"selectedC",
+				"selectedCharacter"
+			],
+			[
+				"O",
+				"Origins"
+			],
+			[
+				"ele",
+				"elseif"
+			],
+			[
+				"e",
+				"elseif"
+			],
+			[
+				"ent",
+				"entity"
+			],
+			[
+				"Se",
+				"Settings"
+			],
+			[
+				"Va",
+				"VarsInstance"
+			],
+			[
+				"Na",
+				"NameIndexMap"
+			],
+			[
+				"d",
+				"DDump(...)"
+			],
+			[
+				"Var",
+				"VarsResource"
+			],
+			[
+				"Vars",
+				"VarsResource"
+			],
+			[
+				"Vat",
+				"VarsInstance"
+			],
+			[
+				"S",
+				"SubUnsubToTick(action, key, fn)"
+			],
+			[
+				"Enti",
+				"Entity"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"fol",
+				"Code Folding: Fold All"
+			],
+			[
+				"fold al",
+				"Code Folding: Fold All"
+			],
+			[
+				"lsp",
+				"Preferences: LSP Settings"
+			],
+			[
+				"Lua",
+				"Preferences: LSP-lua Settings"
+			],
+			[
+				"lua",
+				"Preferences: LSP-lua Settings"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"lsp s",
+				"Preferences: LSP-lua Settings"
+			],
+			[
+				"fold",
+				"Code Folding: Fold All"
+			],
+			[
+				"lsp key",
+				"Preferences: LSP Key Bindings"
+			],
+			[
+				"lsp pref",
+				"Preferences: LSP Settings"
+			],
+			[
+				"prefe",
+				"Preferences: Settings"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"unfo",
+				"Code Folding: Unfold All"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"ui",
+				"UI: Customize Color Scheme"
+			],
+			[
+				"sche",
+				"UI: Customize Color Scheme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"the",
+				"UI: Customize Theme"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"fld",
+				"Code Folding: Fold All"
+			],
+			[
+				"Settings",
+				"Preferences: Settings"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"LSP",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"package se",
+				"Preferences: Package Control Settings"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"color s",
+				"UI: Select Color Scheme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 1031.0,
+		"history":
+		[
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/winst/Desktop/xqcL/FF_Guide"
+	],
+	"file_history":
+	[
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Client/ClientListeners.lua",
+		"/D/Downloads/comparison.html",
+		"/C/Users/winst/Desktop/xqcL/FF_Guide/ao_compare_1_eyes.html",
+		"/C/Users/winst/Desktop/xqcL/FF_Guide/ao_compare_2_shoes.html",
+		"/C/Users/winst/Desktop/xqcL/FF_Guide/ao_compare_3_bsao_mmxao.html",
+		"/C/Users/winst/Desktop/xqcL/FF_Guide/ao_compate.html",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Client/ClientHandlers.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Server/ServerListeners.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/Channels.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/_init.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/Redefines.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/_Libs/FocusCore/Shared/Helpers/Timer.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/MyUtilsTXT.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Client/UI.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/_init.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/_Libs/FocusCore/Shared/Helpers/Redefines.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/Dummy.lua",
+		"/C/Users/winst/AppData/Local/Larian Studios/Baldur's Gate 3/Script Extender/AnimBlue.json",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/BootstrapClient.lua",
+		"/I/_BG3/bg/__UnpackToDelete/Race CC Universal Automatic Patcher (UAP).pak",
+		"/C/Users/winst/AppData/Local/Larian Studios/Baldur's Gate 3/Script Extender/blue.json",
+		"/C/Users/winst/AppData/Local/Larian Studios/Baldur's Gate 3/Script Extender/_Char_AnimsBlue.json",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/ImGui/HelpersGUI.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/Tables.lua",
+		"/I/_BG3/bg/__UnpackToDelete/unique_tav/Public/Shared/Assets/Materials/Characters/CHAR_Skin_Body.lsx",
+		"/I/_BG3/bg/__UnpackToDelete/p8/Materials/Public/Shared/Assets/Materials/Characters/CHAR_Skin_Body.lsx",
+		"/C/Users/winst/AppData/Local/Larian Studios/Baldur's Gate 3/Script Extender/QuickSmallAnimationThingy/AllNamedAnimations.json",
+		"/D/Downloads/message (5).txt",
+		"/D/Downloads/message (6).txt",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/_Libs/AahzLib/Shared/Helpers/ECSPrinter.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/_Libs/FocusCore/Shared/Helpers/Printer.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/_Libs/AahzLib/Client/Helpers/ImguiAnimation.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/PhotoMode.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/ConsoleElpers.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/ConsoleCommands.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/Style.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Client/_init.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/Net.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/Entity.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/SharedHandlers.lua",
+		"/I/_BG3/bg/__UnpackToDelete/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Client/ClientHandlers.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/LighterLightyLights_6aa50183-bce4-576e-749f-3a2c60233b09/settings.json",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/AnimationSets.txt",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Public/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/PhotoMode/EmoteAnimations.lsx",
+		"/C/Users/winst/Desktop/QSATedPhotoMode/Mods/QSATedPhotoMode/meta.lsx",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/PhotoMode/GUI/Pages/PhotoMode.xaml",
+		"/C/Users/winst/Desktop/QSATedPhotoMode/Public/QSATedPhotoMode/EmoteCollections.lsx",
+		"/C/Users/winst/Desktop/QSATedPhotoMode/Public/PhotoMode/FaceExpressionCollections.lsx",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/meta.lsx",
+		"/I/_BG3/bg/__UnpackToDelete/unique_tav/Mods/unique_tav/meta.lsx",
+		"/C/Users/winst/Desktop/QSATedPhotoMode/Public/PhotoMode/EmoteCollections.lsx",
+		"/C/Users/winst/Desktop/QSATedPhotoMode/Mods/PhotoMode/meta.lsx",
+		"/C/Users/winst/Desktop/QSATedPhotoMode/Mods/PhotoMode/GUI/Pages/PhotoMode.xaml",
+		"/I/_BG3/bg/__UnpackToDelete/p8/Shared/Mods/Shared/meta.lsx",
+		"/C/Users/winst/AppData/Local/Larian Studios/Baldur's Gate 3/Mods/REPLACER_Lynia_Dither_Shader_Fix_v1.1/Mods/LynDitherShaderFix/meta.lsx",
+		"/I/_BG3/bg/__UnpackToDelete/p8/GustavX/Mods/PhotoMode/meta.lsx",
+		"/I/_BG3/bg/__UnpackToDelete/p8/GustavX/Mods/PhotoMode/pakgenerator.txt",
+		"/C/Users/winst/AppData/Local/Larian Studios/Baldur's Gate 3/Mods/NoAnnoyingVFX-armor/Mods/NoAnnoyingVFX-armor/meta.lsx",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Public/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/PhotoMode/EmoteCollections.lsx",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/GUI/metadata.lsx",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Public/PhotoMode/PhotoMode/EmoteCollections.lsx",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/PhotoMode/GUI/Pages/PhotoMode.xaml__",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/PhotoMode/GUI/Library/Lib_Shared.xaml",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Public/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/PhotoMode/FaceExpressionCollections.lsx",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/GUI/Pages/PhotoMode.xaml",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/PhotoMode/GUI/Pages/PhotoMode.xaml_",
+		"/I/_BG3/bg/__UnpackToDelete/p8/GustavX/Mods/PhotoMode/GUI/Pages/PhotoMode.xaml",
+		"/I/_BG3/bg/__UnpackToDelete/p8/GustavX/Mods/PhotoMode/GUI/Pages/PhotoMode_c.xaml",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/_Libs/ReactiveX/reactivex/observable.lua",
+		"/C/Users/winst/Desktop/xqcL/ScrippExtender/BG3Tools.sln",
+		"/C/Users/winst/Desktop/xqcL/ScrippExtender/BG3Extender/BG3Extender.vcxproj",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/BG3AF/ScriptExtender/Config.json",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Editor/Mods/r_Animations_6ae3b1f6-37ad-5118-5921-a74090ea5d50/Assets/Blueprints/PhotoMode_Characters_Common_000/Graph_ffb3ecf5-1c41-48d3-9af1-e21396333f8e.lsabpp",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/SettingsManager/_init.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/Camera.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/QuickSmallAnimationThingy_0af8a272-88aa-c345-e4f6-8b60194c76e5/ScriptExtender/Lua/Shared/LibLib/SettingsManager/Main.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Editor/Mods/r_Animations_6ae3b1f6-37ad-5118-5921-a74090ea5d50/Assets/Blueprints/PhotoMode_Characters_Common_000_11abb83c-0c8e-eb57-1e5b-0007bd3acd19.lsabp",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Editor/Mods/r_Animations_6ae3b1f6-37ad-5118-5921-a74090ea5d50/Assets/Blueprints/PhotoMode_Characters_Common_000.lsabp",
+		"/C/Users/winst/AppData/Local/Voidstar/FilePilot/FPilot-Session.json",
+		"/C/Users/winst/Desktop/--[[.json",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/LighterLightyLights_6aa50183-bce4-576e-749f-3a2c60233b09/ScriptExtender/Lua/Client/Main/MainHandlersClient.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/LighterLightyLights_6aa50183-bce4-576e-749f-3a2c60233b09/ScriptExtender/Lua/Server/Main/SaverServer.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/LighterLightyLights_6aa50183-bce4-576e-749f-3a2c60233b09/ScriptExtender/Lua/Server/Main/AnalServer.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/LighterLightyLights_6aa50183-bce4-576e-749f-3a2c60233b09/ScriptExtender/Lua/Client/Main/_init.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/LighterLightyLights_6aa50183-bce4-576e-749f-3a2c60233b09/ScriptExtender/Lua/Client/ManualManual/ManualManual_1.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/LighterLightyLights_6aa50183-bce4-576e-749f-3a2c60233b09/ScriptExtender/Lua/_Libs/FocusCore/Shared/Helpers/Timer.lua",
+		"/C/Users/winst/AppData/Local/Sublime Text/Package Storage/LSP-lua/meta/Lua 5.4 en-US utf8/builtin.lua",
+		"/C/Users/winst/AppData/Roaming/Sublime Text/Packages/Lua_Custom.sublime-color-scheme",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/LighterLightyLights_6aa50183-bce4-576e-749f-3a2c60233b09/ScriptExtender/Lua/Client/Main/AnalHandlersClient.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/LighterLightyLights_6aa50183-bce4-576e-749f-3a2c60233b09/ScriptExtender/Lua/Client/_init.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/LighterLightyLights_6aa50183-bce4-576e-749f-3a2c60233b09/ScriptExtender/Lua/Client/Main/UtilsTab.lua",
+		"/C/Users/winst/Desktop/--[[",
+		"/D/Downloads/GameplayEventList.xml",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/CCEE_de58d193-9a32-7db1-de7c-69e4e55b4002/ScriptExtender/Lua/Client/2_ClientHandlers2.lua",
+		"/C/Users/winst/AppData/Roaming/Sublime Text/Packages/User/LSP-lua.sublime-settings",
+		"/C/Users/winst/AppData/Roaming/Sublime Text/Packages/LSP-lua/LSP-lua.sublime-settings",
+		"/C/Program Files/Sublime Text/xd.ps1",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/CCEE_de58d193-9a32-7db1-de7c-69e4e55b4002/ScriptExtender/Lua/Shared/_ExtIdeHelpers.lua",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/CCEE_de58d193-9a32-7db1-de7c-69e4e55b4002/ScriptExtender/Lua/Client/3_ClientListeners2.lua",
+		"/C/Users/winst/AppData/Roaming/Sublime Text/Packages/User/Package Control.sublime-settings",
+		"/C/Users/winst/AppData/Roaming/Sublime Text/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/winst/AppData/Roaming/Sublime Text/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/winst/AppData/Roaming/Sublime Text/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Program Files/Sublime Text/Packages/Lua_Custom.sublime-color-scheme",
+		"/I/SteamLibrary/steamapps/common/Baldurs Gate 3/Data/Mods/CCEE_de58d193-9a32-7db1-de7c-69e4e55b4002/ScriptExtender/Lua/Shared/LibLib/_ExtIdeHelpers.lua",
+		"/C/Users/winst/AppData/Roaming/Sublime Text/Packages/Lua/Lua.sublime-syntax"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 169.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\winst\\Desktop\\xqcL\\FF_Guide"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 43.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.unsaved_changes":
+	{
+		"height": 598.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 82.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"tab",
+				"ScriptExtender\\Lua\\Shared\\Tables.lua"
+			],
+			[
+				"hand",
+				"ScriptExtender\\Lua\\Client\\ClientHandlers.lua"
+			],
+			[
+				"clien",
+				"ScriptExtender\\Lua\\Client\\ClientHandlers.lua"
+			],
+			[
+				"ui",
+				"ScriptExtender\\Lua\\Client\\UI.lua"
+			],
+			[
+				"",
+				"ScriptExtender\\Lua\\Client\\UI.lua"
+			],
+			[
+				"tables",
+				"ScriptExtender\\Lua\\Shared\\Tables.lua"
+			],
+			[
+				"Server",
+				"ScriptExtender\\Lua\\Server\\Main\\SaverServer.lua"
+			],
+			[
+				"mainha",
+				"ScriptExtender\\Lua\\Client\\Main\\AnalHandlersClient.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 499.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"I:\\SteamLibrary\\steamapps\\common\\Baldurs Gate 3\\Data\\Mods\\Slots_5d109bfd-c3f4-53c1-c1de-9e318e6d4c36\\ScriptExtender\\Lua\\Client\\Slots_5d109bfd-c3f4-53c1-c1de-9e318e6d4c36.sublime-workspace"
+			]
+		],
+		"width": 378.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"lsp_show_inlay_hints": false
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
