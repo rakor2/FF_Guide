@@ -9,35 +9,59 @@
       --default-handle-opacity: 0.9;
       --handle-position-start: 50%;
       position: relative;
-      display: inline-block;
+      display: block;
       overflow: hidden;
       line-height: 0;
       direction: ltr;
       width: 100%;
+      margin: 0;
+      padding: 0;
+      font-size: 0;
     }
     :host(:focus) { outline: 2px solid #0066ff; }
     ::slotted(*) {
       user-select: none;
       -webkit-user-drag: none;
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+    ::slotted(img) {
+      width: 100%;
+      height: auto;
+      display: block;
+      vertical-align: top;
     }
     .first {
       position: absolute;
       left: 0;
       top: 0;
       right: 0;
+      bottom: 0;
       height: 100%;
       width: 100%;
       --exposure: 50%;
       --transition-time: 0ms;
+      margin: 0;
+      padding: 0;
+      line-height: 0;
     }
     .first .first-overlay-container {
       position: relative;
       clip-path: inset(0 var(--exposure) 0 0);
       transition: clip-path var(--transition-time);
       height: 100%;
+      overflow: hidden;
     }
-    .first .first-overlay { overflow: hidden; height: 100%; }
-    .second { position: relative; }
+    .first .first-overlay {
+      overflow: hidden;
+      height: 100%;
+      line-height: 0;
+    }
+    .second {
+      position: relative;
+      line-height: 0;
+    }
     .handle-container {
       transform: translateX(50%);
       position: absolute;
@@ -45,6 +69,7 @@
       right: var(--exposure);
       height: 100%;
       transition: right var(--transition-time);
+      pointer-events: none;
     }
     .divider {
       position: absolute;
@@ -55,6 +80,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      pointer-events: none;
     }
     .divider:after {
       content: " ";
@@ -68,12 +94,19 @@
       top: var(--handle-position-start);
       pointer-events: none;
       transform: translate(calc(-50% - 0.5px), -50%);
+      cursor: ew-resize;
+      z-index: 20;
     }
     .default-handle {
       width: var(--default-handle-width);
       opacity: var(--default-handle-opacity);
+      display: block;
     }
-    .default-handle path { stroke: var(--default-handle-color); stroke-width: 1.5; }
+    .default-handle path {
+      stroke: var(--default-handle-color);
+      stroke-width: 1.5;
+      vector-effect: non-scaling-stroke;
+    }
   `;
 
   const template = document.createElement('template');
@@ -105,7 +138,10 @@
       this.onMove = (e) => {
         if (!this.isDragging) return;
         const rect = this.getBoundingClientRect();
-        const x = (e.clientX || e.touches?.[0]?.clientX) - rect.left;
+        const clientX = e.clientX ?? e.touches?.[0]?.clientX;
+        if (!clientX) return;
+        let x = clientX - rect.left;
+        x = Math.min(rect.width, Math.max(0, x));
         let percent = (x / rect.width) * 100;
         percent = Math.min(100, Math.max(0, percent));
         this.exposure = percent;
@@ -117,6 +153,8 @@
         this.isDragging = true;
         window.addEventListener('mousemove', this.onMove);
         window.addEventListener('mouseup', this.onEnd);
+        window.addEventListener('touchmove', this.onMove, { passive: false });
+        window.addEventListener('touchend', this.onEnd);
         this.onMove(e);
       };
 
@@ -124,6 +162,8 @@
         this.isDragging = false;
         window.removeEventListener('mousemove', this.onMove);
         window.removeEventListener('mouseup', this.onEnd);
+        window.removeEventListener('touchmove', this.onMove);
+        window.removeEventListener('touchend', this.onEnd);
       };
 
       const shadow = this.attachShadow({ mode: 'open' });
@@ -133,11 +173,19 @@
       shadow.appendChild(template.content.cloneNode(true));
       this.firstEl = shadow.querySelector('.first');
       this.handleContainer = shadow.querySelector('.handle-container');
+
+      this.resizeObserver = new ResizeObserver(() => {
+        this.updateExposure();
+      });
     }
 
     updateExposure() {
-      this.firstEl?.style.setProperty('--exposure', 100 - this.exposure + '%');
-      this.handleContainer?.style.setProperty('right', 100 - this.exposure + '%');
+      if (this.firstEl) {
+        this.firstEl.style.setProperty('--exposure', 100 - this.exposure + '%');
+      }
+      if (this.handleContainer) {
+        this.handleContainer.style.setProperty('right', 100 - this.exposure + '%');
+      }
     }
 
     connectedCallback() {
@@ -145,11 +193,13 @@
       this.addEventListener('mousedown', this.onStart);
       this.addEventListener('touchstart', this.onStart);
       this.addEventListener('dragstart', (e) => e.preventDefault());
+      this.resizeObserver.observe(this);
     }
 
     disconnectedCallback() {
       this.removeEventListener('mousedown', this.onStart);
       this.removeEventListener('touchstart', this.onStart);
+      this.resizeObserver.disconnect();
     }
   }
 
