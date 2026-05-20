@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AO Comparisons</title>
+  <style>
+    body {
+      background: #0a0a0f;
+      font-family: monospace;
+      padding: 20px;
+    }
+    a {
+      display: block;
+      color: #4a9eff;
+      text-decoration: none;
+      padding: 8px 0;
+      font-size: 14px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .error {
+      color: #ff6b6b;
+    }
+  </style>
+</head>
+<body>
+  <div id="links">scanning...</div>
+
+  <script>
+    const container = document.getElementById('links');
+
+    async function scanConfigs() {
+      const found = [];
+
+      try {
+        const response = await fetch(window.location.pathname);
+        const html = await response.text();
+
+        const regex = /config-([a-zA-Z0-9_-]+)\.js/g;
+        let match;
+        while ((match = regex.exec(html)) !== null) {
+          if (!found.includes(match[1])) {
+            found.push(match[1]);
+          }
+        }
+      } catch(e) {
+        container.innerHTML = '<div class="error">server directory listing required</div>';
+        return;
+      }
+
+      if (found.length === 0) {
+        container.innerHTML = '<div class="error">no config files found</div>';
+        return;
+      }
+
+      container.innerHTML = found.map(name =>
+        `<a href="image_compare/index.html?config=${name}">${name}</a>`
+      ).join('');
+    }
+
+    scanConfigs();
+  </script>
+</body>
+</html>
