@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Comparison</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="comparison-wrapper">
+    <img-comparison-slider>
+      <img slot="first" id="img-first" alt="Before">
+      <img slot="second" id="img-second" alt="After">
+    </img-comparison-slider>
+    <div class="label-container">
+      <div class="label label-left" id="label-first">AO enabled</div>
+      <div class="label label-right" id="label-second">AO disabled</div>
+    </div>
+  </div>
+
+  <script src="compare.js"></script>
+  <script>
+    (function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const configName = urlParams.get('config') || 'default';
+
+      const script = document.createElement('script');
+      script.src = `config-${configName}.js`;
+      script.onerror = () => {
+        console.error(`Config config-${configName}.js not found!`);
+      };
+      document.body.appendChild(script);
+    })();
+  </script>
+</body>
+</html>
